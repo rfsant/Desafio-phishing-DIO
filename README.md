@@ -5,6 +5,17 @@ Criação de um phishing para capturar a senha do Facebook, clonando o site usan
 - Kali
 - Setoolkit
 
+# Copiando o site em um arquivo local
+Um dos obstáculos desse desafio é a criptografia que o site coloca sobre alguns tipos de ataqes simples, para burlar essa segurança basta copiar a pagina do site em um arquivo local. Então para realizar essa cópia devemos:
+
+- Salvar a pagina desejada, trocar o nome do arquivo para ```index.htm``` e para que o site apresente a mesma aparencia do original é só copiar o código do site online na sua cópia index.
+
+![Alt text](./1.jpg "Optional title")
+
+- Após isso devemos remover essa linha do código para seguir ao setoolkit
+
+![Alt text](./2.jpg "Optional title")
+
 # Realizando o  ataque
 - No Kali abra o terminal;
 - Acesse o modo root com o comando ``` sudo su ```;
@@ -25,16 +36,20 @@ Criação de um phishing para capturar a senha do Facebook, clonando o site usan
 
 ![Alt text](./passo4.jpg "Optional title")
 
-- No segundo menu com os métodos de ataque selecionamos a opção 2 ``` Site Cloner ```;
+- No segundo menu com os métodos de ataque selecionamos a opção 3 ``` Custom Import ```;
 
 ![Alt text](./passo5.jpg "Optional title")
 
 - Após concluir a última etapa aparecerá uma mensagem importante informando que é necessário utilizar um ip externo para que tenha a comunicação com o browser, então após informar o ip prossiga com enter;
-- Em seguida será solicitada a url do site que desejamos clonar, nesse caso o facebook;
+- Em seguida será solicitado o caminho do site que desejamos clonar, então devemos copiar o caminho de onde está o arquivo que modificamos nas primeiras etapas, o  index.htm;
+- Depois de colocar o caminho o arquivo  indicamos a opção 2 para copiar todo o arquivo  e logo em seguida será solicitada a url do site;
 
-![Alt text](./passo6.jpg "Optional title")
+![Alt text](./3.jpg "Optional title")
 
-- Para testar o site falso basta pesquisar o ip que foi usado para hospedar o site falso e para sofisticar o ataque basta definir um nome para esse ip para disfarçar a origem na hora de aplicar o ataque;
-- Para conferir os dados obtidos basta observar essa parte do resultado;
+- Para testar o site falso basta pesquisar o ip que foi usado para hospedar o site falso e inserir os dados de login;
 
-![Alt text](./passo7.jpg "Optional title")
+![Alt text](./passo1.jpg "Optional title")
+
+- E por fim para conferir os dados obtidos basta observar essa parte do resultado no terminal;
+
+![Alt text](./4.jpg "Optional title")
