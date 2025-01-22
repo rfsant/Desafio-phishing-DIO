@@ -42,7 +42,7 @@ Um dos obstáculos desse desafio é a criptografia que o site coloca sobre algun
 
 - Após concluir a última etapa aparecerá uma mensagem importante informando que é necessário utilizar um ip externo para que tenha a comunicação com o browser, então após informar o ip prossiga com enter;
 - Em seguida será solicitado o caminho do site que desejamos clonar, então devemos copiar o caminho de onde está o arquivo que modificamos nas primeiras etapas, o  index.htm;
-- Depois de colocar o caminho o arquivo  indicamos a opção 2 para copiar todo o arquivo  e logo em seguida será solicitada a url do site;
+- Depois de colocar o caminho do arquivo  indicamos a opção 2 para copiar todo o arquivo  e logo em seguida será solicitada a url do site;
 
 ![Alt text](./arquivo.jpg "Optional title")
 
